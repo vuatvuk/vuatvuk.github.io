@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
+
+<body>
+   <header>
     <nav>
         <div class="logo">Андрей Браун</div>
-        <div class="name">
+        <div class="menu">
             <ul>
                 <li>обо мне</li>
                 <li>услуги</li>
@@ -20,19 +24,16 @@
         </div>
     </nav>
 </header>
-
-<body>
+   
     <div class="main">
         <div class="title_conteiner">
             <h1>Привет <br> Я Андрей Браун</h1>
             <h4>Фулл стек веб разработчик</h4>
         </div>
-        <div class="big_foto"> <img src="img/man1.jpg" width="200" height="190" alt="Парень1"></div>
     </div>
+    
     <div class="about_me">
         <h2>обо мне</h2>
-        <img src="img/line_orange.png" alt=""><br>
-        <img src="img/man2.jpg" alt="Парень 2">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestiae accusamus numquam, nulla perferendis aliquam, doloribus incidunt itaque reprehenderit placeat?</p>
         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, odit iusto aliquam praesentium qui doloribus vitae iure obcaecati quos nemo.</P>
         <a href="file/rezume.txt" download="">
@@ -41,7 +42,7 @@
     </div>
     <div class="skills">
         <h2>что я умею</h2>
-        <div style="height: 5px; width: 75px;background-color: orangered"></div>
+    
         <div class="web"> <img src="img/%D0%BD%D0%BE%D1%83%D1%82.png" alt="ноут">
             <h3>Веб-дизайн</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laborum, iusto veniam exercitationem, voluptatem molestias?</p>
@@ -67,7 +68,6 @@
         <h2>Кейсы</h2>
         <div style="height: 5px; width: 75px;background-color: orangered"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus maxime repudiandae atque, porro pariatur ea dolores nemo cumque perferendis odit.</p>
-        <img src="img/foto_keis.jpg" alt="">
         <div class="link">
             <h3>CLIENT:</h3> <br> <span>Какая-то компания</span>
             <h3>WEBSITE</h3> <br> <span>http://www.somedomain.com</span><br>
@@ -170,7 +170,7 @@
         <form action="***">
             <input type="text" name="Name input" value="" placeholder="введите имя">
             <input type="text" name="mail input" value="" placeholder="Email">
-            <input type="text" name="message input" value="" placeholder="Сообщение">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
             <input type="submit" value="отправиить">
         </form>
 

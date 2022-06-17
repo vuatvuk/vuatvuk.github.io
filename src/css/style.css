@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    color: white;
+    line-height: 60px;
+    font-size: 16px;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+
+.main{
+    
+   width: 100%;
+    height:  calc(100%-60px);
+    background: url(../img/boy1.png) 90% 100%/auto 85% no-repeat, url(../img/fon1.jpg)center/cover no-repeat ;
+}
+.title_conteiner{
+   
+    margin: 432px 0px 0px 404px;
+    
+}
